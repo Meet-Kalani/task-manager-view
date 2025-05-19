@@ -1,4 +1,4 @@
-const { defineConfig, globalIgnores } = require('eslint/config');
+const { defineConfig } = require('eslint/config');
 
 const tsParser = require('@typescript-eslint/parser');
 const globals = require('globals');
@@ -51,6 +51,10 @@ module.exports = defineConfig([
 
     rules: {
       'react/react-in-jsx-scope': 'off',
+      'react-hooks/rules-of-hooks': 'error',
+      'react-hooks/exhaustive-deps': 'error',
+      'no-unused-vars': 'off',
+      '@typescript-eslint/no-unused-vars': 'error',
     },
 
     settings: {

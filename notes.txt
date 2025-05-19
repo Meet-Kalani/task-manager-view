@@ -1,0 +1,1 @@
+Construct a function which removes redundant code of api call, cuz all the api's are having same funcitonality

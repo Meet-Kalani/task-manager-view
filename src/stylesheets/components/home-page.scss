@@ -1,0 +1,9 @@
+.issue-boards-wrapper {
+  overflow-x: auto;
+
+  .issue-boards {
+    display: flex;
+    gap: 20px;
+    width: max-content;
+  }
+}
